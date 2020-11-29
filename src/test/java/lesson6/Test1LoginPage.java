@@ -7,7 +7,7 @@ import pages.LoginPages;
 import static org.junit.Assert.*;
 
 
-public class lesson6Task1Test extends BaseUITest {
+public class Test1LoginPage extends BaseUITest {
 
     @Test
     public void task1Test(){

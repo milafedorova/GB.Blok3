@@ -33,63 +33,63 @@ public class HomePage extends BaseView {
     }
 
     @FindBy(xpath = "/html/body/div[13]/footer/div[1]/div[1]/form/div/div[1]/div[4]/button")
-    private WebElement enterButton;
+    private WebElement SendAnApplication;
 
-    public HomePage clickEnterButton(){
-        enterButton.click();
+    public HomePage clickSendAnApplication(){
+        SendAnApplication.click();
         return this;
     }
 
 
     @FindBy(xpath = "/html/body/div[2]/header/div[2]/div/div[1]/div[3]/span[1]/span/a/img")
-    private WebElement button;
+    private WebElement buttonChangeVersionForTheVisuallyImpaired;
 
-    public HomePage clickButton(){
-        button.click();
+    public HomePage clickButtonChangeVersionForTheVisuallyImpaired(){
+        buttonChangeVersionForTheVisuallyImpaired.click();
         return this;
     }
 
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/a[2]")
-    private WebElement enterButton1;
+    private WebElement enterButtonNormalSize;
 
-    public HomePage clickEnterButton1(){
-        enterButton1.click();
+    public HomePage clickEnterButtonNormalSize(){
+        enterButtonNormalSize.click();
         return this;
     }
 
-    public String nameClassEnterButton1(){
-        return enterButton1.getAttribute("class");
+    public String nameClassEnterButtonNormalSize(){
+        return enterButtonNormalSize.getAttribute("class");
     }
 
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/a[3]")
-    private WebElement enterButton2;
+    private WebElement enterButtonBigSize;
 
-    public HomePage clickEnterButton2(){
-        enterButton2.click();
+    public HomePage clickEnterButtonBigSize(){
+        enterButtonBigSize.click();
         return this;
     }
 
-    public String nameClassEnterButton2(){
-        return enterButton2.getAttribute("class");
+    public String nameClassEnterButtonBigSize(){
+        return enterButtonBigSize.getAttribute("class");
     }
 
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[1]/a[1]")
-    private WebElement enterButton3;
+    private WebElement enterButtonSmallSize;
 
-    public HomePage clickEnterButton3(){
-        enterButton3.click();
+    public HomePage clickEnterButtonSmallSize(){
+        enterButtonSmallSize.click();
         return this;
     }
 
-    public String nameClassEnterButton3(){
-        return enterButton3.getAttribute("class");
+    public String nameClassEnterButtonSmallSize(){
+        return enterButtonSmallSize.getAttribute("class");
     }
 
     @FindBy(xpath = "/html/body/div[2]/div/div/div/span/a")
-    private WebElement enterButton4;
+    private WebElement enterButtonBackToNormalVersion;
 
-    public HomePage clickEnterButton4(){
-        enterButton4.click();
+    public HomePage clickEnterButtonBackToNormalVersion(){
+        enterButtonBackToNormalVersion.click();
         return this;
     }
 

@@ -4,12 +4,12 @@ import base.BaseUITest;
 import org.junit.jupiter.api.*;
 import pages.HomePage;
 
-public class lesson6Task2Test extends BaseUITest {
+public class Test2ApplicationForAdmission extends BaseUITest {
 
     @Test
     public void task2Test(){
         HomePage homePage = (HomePage) new HomePage(driver)
                 .enterMailName("Luda", "1234@mail.ru")
-                .clickEnterButton();
+                .clickSendAnApplication();
     }
 }

@@ -6,7 +6,7 @@ import pages.HomePage;
 
 import static org.junit.Assert.*;
 
-public class lesson6Task4Test extends BaseUITest {
+public class Test4TranslationIntoEngVersionSite extends BaseUITest {
 
     @Test
     public void task4Test() {
